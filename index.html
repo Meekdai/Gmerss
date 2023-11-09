@@ -22,6 +22,7 @@ h1 a:not([href]){color:inherit;text-decoration:none;vertical-align: bottom;font-
 .title-right .circle{padding: 14px 16px;margin-right:8px;}
 .SideNav-icon{margin-right: 16px}
 .SideNav-item .Label{color: #fff;margin-left:8px;}
+.genTime{float: right;}
 #footer {margin-top:64px; text-align: center;font-size: small;}
 
 </style>
@@ -37,7 +38,7 @@ h1 a:not([href]){color:inherit;text-decoration:none;vertical-align: bottom;font-
         </div>
     </div>
     <div id="content">
-        <div style="margin-bottom: 16px;">A RSS-Reader All in Github (最后抓取时间)</div>
+        <div style="margin-bottom: 16px;">A RSS-Reader All in Github <span class="genTime"></span></div>
     </div>
     <nav class="SideNav border"></nav>
     <div id="footer"></div>
@@ -67,7 +68,8 @@ function modeSwitch(){
     else{changeLight();localStorage.setItem("meek_theme","light");}
 }
 
-let requestJson="rssBase.json"
+
+let requestJson="rssAll.json"
 let request=new XMLHttpRequest();
 request.open("GET",requestJson);
 request.responseType='text';
@@ -79,44 +81,53 @@ request.onload=function(){
 }
 
 function showList(jsonData){
+    let genTime=document.getElementsByClassName("genTime")[0];
+    let date=new Date(jsonData[0]["published"]*1000);
+    Y = date.getFullYear() + '-';
+    M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+    D = date.getDate() + ' ';
+    h = date.getHours() + ':';
+    m = date.getMinutes() + ':';
+    s = date.getSeconds();
+    genTime.innerHTML="抓取时间："+Y+M+D+h+m+s;
+
     let SideNav=document.getElementsByClassName("SideNav")[0];
-    for(let rss=0;rss<jsonData.length;rss++){
+    for(let i=1;i<jsonData.length-1;i++){
         
-        for(let i=0;i<Object.keys(jsonData[rss]["list"]).length;i++){
-            let item=document.createElement("a");
-            item.setAttribute("class","SideNav-item d-flex flex-items-center flex-justify-between");
-            item.setAttribute("href",jsonData[rss]["list"][i]['link']);
-            item.setAttribute("target","_blank");
+        let item=document.createElement("a");
+        item.setAttribute("class","SideNav-item d-flex flex-items-center flex-justify-between");
+        item.setAttribute("href",jsonData[i]['link']);
+        item.setAttribute("target","_blank");
 
-            let center=document.createElement("div");
-            center.setAttribute("class","d-flex flex-items-center");
-            let img=document.createElement("img");
-            img.setAttribute("class","SideNav-icon octicon");
-            img.setAttribute("style","witdh:16px;height:16px");
-            img.setAttribute("src",jsonData[rss]['favicon']);
-            let title=document.createElement("span");
-            title.innerHTML=jsonData[rss]["list"][i]['title'];
-            center.appendChild(img);
-            center.appendChild(title);
+        let center=document.createElement("div");
+        center.setAttribute("class","d-flex flex-items-center");
+        let img=document.createElement("img");
+        img.setAttribute("class","SideNav-icon octicon");
+        img.setAttribute("style","witdh:16px;height:16px");
+        img.setAttribute("src",jsonData[0]["rssBase"][jsonData[i]['name']]['favicon']);
+        let title=document.createElement("span");
+        title.innerHTML=jsonData[i]['title'];
+        center.appendChild(img);
+        center.appendChild(title);
 
-            let listLabels=document.createElement("div");
-            listLabels.setAttribute("class","listLabels");
-            let LabelName=document.createElement("span");
-            LabelName.setAttribute("class","Label");
-            LabelName.setAttribute("style","background-color:"+jsonData[rss]['nameColor']);
-            LabelName.innerHTML=jsonData[rss]["name"];
-            listLabels.appendChild(LabelName);
-            let LabelTime=document.createElement("span");
-            LabelTime.setAttribute("class","Label");
-            LabelTime.setAttribute("style","background-color:#0969da");
-            LabelTime.innerHTML=jsonData[rss]["list"][i]['published'];
-            listLabels.appendChild(LabelTime);
+        let listLabels=document.createElement("div");
+        listLabels.setAttribute("class","listLabels");
+        let LabelName=document.createElement("span");
+        LabelName.setAttribute("class","Label");
+        LabelName.setAttribute("style","background-color:"+jsonData[0]["rssBase"][jsonData[i]['name']]['nameColor']);
+        LabelName.innerHTML=jsonData[i]['name'];
+        listLabels.appendChild(LabelName);
+        let LabelTime=document.createElement("span");
+        LabelTime.setAttribute("class","Label");
+        LabelTime.setAttribute("style","background-color:#0969da");
+        LabelTime.innerHTML=jsonData[i]['published'];
+        listLabels.appendChild(LabelTime);
 
 
-            item.appendChild(center);
-            item.appendChild(listLabels);
-            SideNav.appendChild(item)
-        }
+        item.appendChild(center);
+        item.appendChild(listLabels);
+        SideNav.appendChild(item)
+
     }
 
 }
