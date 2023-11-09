@@ -95,7 +95,7 @@ function formatTime(time,needHMS=false){
 
 function showList(jsonData){
     let genTime=document.getElementsByClassName("genTime")[0];
-    genTime.innerHTML="抓取时间："+formatTime(jsonData[0]["published"]+(0-new Date().getTimezoneOffset()*60),needHMS=true);
+    genTime.innerHTML="抓取时间："+formatTime(jsonData[0]["published"],needHMS=true);
 
     let SideNav=document.getElementsByClassName("SideNav")[0];
     for(let i=1;i<jsonData.length;i++){
