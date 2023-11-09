@@ -39,7 +39,10 @@ for rss in rssBase:
 print("====== Start sorted %d list ======"%(len(rssAll)-1))
 rssAll=sorted(rssAll,key=lambda e:e.__getitem__("published"),reverse=True)
 
-listFile=open("rssAll.json","w")
+if not os.path.exists('docs/'):
+    os.mkdir('docs/')
+
+listFile=open("docs/rssAll.json","w")
 listFile.write(json.dumps(rssAll))
 listFile.close()
 print("====== End reptile ======")

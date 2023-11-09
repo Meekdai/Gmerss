@@ -1,4 +1,4 @@
-name: build Gmeek
+name: build Gmerss
 
 on:
   workflow_dispatch:
