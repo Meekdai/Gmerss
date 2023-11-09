@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: reptile
+    name: Reptile
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -45,7 +45,7 @@ jobs:
           path: 'docs/.'
           
   deploy:
-    name: Deploy blog
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-20.04
     needs: build
     permissions:
