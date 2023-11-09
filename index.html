@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="//cdn.staticfile.org/Primer/21.0.7/primer.css" rel="stylesheet" />
-    <!-- <link href="primer.css" rel="stylesheet" /> -->
     <link rel="icon" href="https://meekdai.com/favicon.svg">
     <title>Gmerss Reader</title>
     <script>
@@ -80,19 +79,24 @@ request.onload=function(){
     showList(jsonData);
 }
 
-function showList(jsonData){
-    let genTime=document.getElementsByClassName("genTime")[0];
-    let date=new Date(jsonData[0]["published"]*1000);
+function formatTime(time,needHMS=false){
+    let date=new Date(time*1000);
     Y = date.getFullYear() + '-';
     M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
     D = date.getDate() + ' ';
     h = date.getHours() + ':';
     m = date.getMinutes() + ':';
     s = date.getSeconds();
-    genTime.innerHTML="抓取时间："+Y+M+D+h+m+s;
+    if(needHMS){return Y+M+D+h+m+s}
+    else{return Y+M+D}
+}
+
+function showList(jsonData){
+    let genTime=document.getElementsByClassName("genTime")[0];
+    genTime.innerHTML="抓取时间："+formatTime(jsonData[0]["published"],needHMS=true);
 
     let SideNav=document.getElementsByClassName("SideNav")[0];
-    for(let i=1;i<jsonData.length-1;i++){
+    for(let i=1;i<jsonData.length;i++){
         
         let item=document.createElement("a");
         item.setAttribute("class","SideNav-item d-flex flex-items-center flex-justify-between");
@@ -120,9 +124,8 @@ function showList(jsonData){
         let LabelTime=document.createElement("span");
         LabelTime.setAttribute("class","Label");
         LabelTime.setAttribute("style","background-color:#0969da");
-        LabelTime.innerHTML=jsonData[i]['published'];
+        LabelTime.innerHTML=formatTime(jsonData[i]['published']);
         listLabels.appendChild(LabelTime);
-
 
         item.appendChild(center);
         item.appendChild(listLabels);

@@ -2,15 +2,13 @@ name: build Gmeek
 
 on:
   workflow_dispatch:
-  issues:
-    types: [opened, edited]
+  schedule:
+    - cron: "0 16 * * *"
 
 jobs:
   build:
-    name: Generate blog
+    name: reptile
     runs-on: ubuntu-20.04
-    if: github.event.repository.owner.id == github.event.sender.id
-    permissions: write-all
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -19,42 +17,25 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      - name: Get config.json
-        run: |
-          echo "====== check config.josn file ======"
-          cat config.json
-          echo "====== check config.josn end  ======"
-          sudo apt-get install jq
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.8
 
-      - name: Clone source code
-        run: |
-          git clone -b $(jq -r ".GMEEK_VERSION" config.json) https://github.com/Meekdai/Gmeek.git /opt/Gmeek
-
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r /opt/Gmeek/requirements.txt
+          pip install feedparser
 
-      - name: Generate new html
+      - name: Start reptile
         run: |
-          cp -r ./* /opt/Gmeek/
-          cd /opt/Gmeek/
-          python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
-          cp -a /opt/Gmeek/docs ${{ github.workspace }} 
-          cp -a /opt/Gmeek/backup ${{ github.workspace }} 
-          cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
-          
+          python Gmerss.py
+
       - name: update html
         run: |
-          git config --local user.email "$(jq -r ".email" config.json)"
           git config --local user.name "${{ github.repository_owner }}"
           git add .
-          git commit -a -m '🎉auto update by Gmeek action' || echo "nothing to commit"
+          git commit -a -m '🎉auto update by Gmerss action' || echo "nothing to commit"
           git push || echo "nothing to push"
           sleep 3
           
