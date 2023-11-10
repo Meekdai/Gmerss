@@ -20,6 +20,7 @@ rssAll.append(info)
 
 displayTime=info["published"]-displayDay*86400
 
+print("====== Now timestamp = %d ======"%info["published"])
 print("====== Start reptile Last %d days ======"%displayDay)
 
 for rss in rssBase:
