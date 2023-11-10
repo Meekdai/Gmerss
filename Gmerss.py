@@ -7,43 +7,56 @@ import feedparser
 ######################################################################################
 displayDay=7 # 抓取多久前的内容
 displayMax=5 # 每个RSS最多抓取数
+weeklyKeyWord="周刊" # 周刊过滤关键字
 
 rssBase={
+    "夜枫":{
+        "url":"https://yefengs.com/feed",
+        "type":"post",
+        "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
+        "nameColor":"#b8d101"
+    },
+    "kn007":{
+        "url":"https://kn007.net/feed/",
+        "type":"post",
+        "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
+        "nameColor":"#e76976"
+    },
     "二丫讲梵":{
         "url":"https://wiki.eryajf.net/rss.xml",
-        "favicon":"https://wiki.eryajf.net/img/logo.png",
+        "type":"weekly",
         "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
-        "nameColor":"#1f2451"
+        "nameColor":"#93bd76"
     },
     "豌豆花下猫":{
         "url":"https://pythoncat.top/rss.xml",
-        "favicon":"https://pythoncat.top/favicon.svg",
+        "type":"weekly",
         "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
         "nameColor":"#bc4c00"
     },
-    "1Link.Fun":{
+    "1Link":{
         "url":"https://1link.fun/index.xml",
-        "favicon":"https://fav.farm/🔥",
+        "type":"weekly",
         "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
         "nameColor":"#7479dc"
     },
     "阮一峰":{
         "url":"http://www.ruanyifeng.com/blog/atom.xml",
-        "favicon":"https://www.ruanyifeng.com/favicon.ico",
+        "type":"weekly",
         "timeFormat":"%Y-%m-%dT%H:%M:%SZ",
         "nameColor":"#1f883d"
     },
     "老胡的周刊":{
         "url":"https://weekly.howie6879.com/rss/rss.xml",
-        "favicon":"https://weekly.howie6879.com/statics/images/howie.jpeg",
+        "type":"weekly",
         "timeFormat":"%a, %d %b %Y %H:%M:%S +0806",
         "nameColor":"#A333D0"
     },
     "Meekdai":{
         "url":"https://blog.meekdai.com/rss.xml",
-        "favicon":"https://meekdai.com/favicon.svg",
+        "type":"post",
         "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
-        "nameColor":"#246843"
+        "nameColor":"#df7150"
     }
 }
 ######################################################################################
@@ -67,6 +80,10 @@ for rss in rssBase:
         if i>displayMax:
             break
         published=int(time.mktime(time.strptime(entry['published'], rssBase[rss]["timeFormat"])))
+
+        if rssBase[rss]["type"]=="weekly" and (weeklyKeyWord not in entry['title']):
+            continue
+
         if published>displayTime:
             onePost=json.loads('{}')
             onePost["name"]=rss
@@ -74,7 +91,7 @@ for rss in rssBase:
             onePost["link"]=entry['link']
             onePost["published"]=published
             rssAll.append(onePost)
-            print("====== Reptile %s - %s ======"%(rss,onePost["title"]))
+            print("====== Reptile %s ======"%(onePost["title"]))
             i=i+1
 
 print("====== Start sorted %d list ======"%(len(rssAll)-1))
