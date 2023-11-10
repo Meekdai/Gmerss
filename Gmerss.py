@@ -9,6 +9,12 @@ displayDay=7 # 抓取多久前的内容
 displayMax=5 # 每个RSS最多抓取数
 
 rssBase={
+    "二丫讲梵":{
+        "url":"https://wiki.eryajf.net/rss.xml",
+        "favicon":"https://wiki.eryajf.net/img/logo.png",
+        "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
+        "nameColor":"#1f2451"
+    },
     "豌豆花下猫":{
         "url":"https://pythoncat.top/rss.xml",
         "favicon":"https://pythoncat.top/favicon.svg",
@@ -37,7 +43,7 @@ rssBase={
         "url":"https://blog.meekdai.com/rss.xml",
         "favicon":"https://meekdai.com/favicon.svg",
         "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
-        "nameColor":"#fd7d7d"
+        "nameColor":"#246843"
     }
 }
 ######################################################################################
