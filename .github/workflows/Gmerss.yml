@@ -34,7 +34,8 @@ jobs:
 
       - name: update html
         run: |
-          git config --local user.name "${{ github.repository_owner }}"
+          git config --global user.email "Gmerss@github.com"
+          git config --global user.name "${{ github.repository_owner }}"
           git add .
           git commit -a -m '🎉auto update by Gmerss action' || echo "nothing to commit"
           git push || echo "nothing to push"
