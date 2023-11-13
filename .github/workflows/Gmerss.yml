@@ -32,10 +32,9 @@ jobs:
         run: |
           python Gmerss.py
 
-      - name: update html
-        run: |
-          git config --global user.email "Gmerss@github.com"
-          git config --global user.name "${{ github.repository_owner }}"
-          git add .
-          git commit -a -m '🎉auto update by Gmerss action' || echo "nothing to commit"
-          git push origin gh-pages -f || echo "nothing to push"
+      - name: Upload artifact
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/.
+          
