@@ -7,7 +7,7 @@ import feedparser
 ######################################################################################
 displayDay=7 # 抓取多久前的内容
 displayMax=5 # 每个RSS最多抓取数
-weeklyKeyWord="周刊" # 周刊过滤关键字
+weeklyKeyWord="" # 周刊过滤关键字
 
 rssBase={
     "独立开发变现":{
