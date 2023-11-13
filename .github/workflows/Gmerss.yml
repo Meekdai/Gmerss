@@ -38,29 +38,4 @@ jobs:
           git config --global user.name "${{ github.repository_owner }}"
           git add .
           git commit -a -m '🎉auto update by Gmerss action' || echo "nothing to commit"
-          git push || echo "nothing to push"
-          sleep 3
-          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: 'docs/.'
-          
-  deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-20.04
-    needs: build
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          git push origin gh-pages -f || echo "nothing to push"
