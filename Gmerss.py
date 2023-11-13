@@ -23,9 +23,9 @@ rssBase={
         "nameColor":"#e76976"
     },
     "二丫讲梵":{
-        "url":"https://wiki.eryajf.net/rss.xml",
+        "url":"https://wiki.eryajf.net/learning-weekly.xml",
         "type":"weekly",
-        "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
+        "timeFormat":"%a, %d %b %Y %H:%M:%S +0800",
         "nameColor":"#93bd76"
     },
     "豌豆花下猫":{
