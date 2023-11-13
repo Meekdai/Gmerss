@@ -10,6 +10,12 @@ displayMax=5 # 每个RSS最多抓取数
 weeklyKeyWord="周刊" # 周刊过滤关键字
 
 rssBase={
+    "独立开发变现":{
+        "url":"https://www.ezindie.com/feed/rss.xml",
+        "type":"weekly",
+        "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
+        "nameColor":"#a4244b"
+    },
     "夜枫":{
         "url":"https://yefengs.com/feed",
         "type":"post",
