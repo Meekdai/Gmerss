@@ -32,11 +32,20 @@ jobs:
         run: |
           python Gmerss.py
 
-      - name: Upload artifact
+      - name: update html
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: docs
           folder: docs/.
+
+      - name: sleep 3
+        run: |
+          sleep 3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'docs/.'
 
   deploy:
     name: Deploy to GitHub Pages
