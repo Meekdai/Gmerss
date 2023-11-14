@@ -6,7 +6,7 @@ import feedparser
 
 ######################################################################################
 displayDay=7 # 抓取多久前的内容
-displayMax=5 # 每个RSS最多抓取数
+displayMax=2 # 每个RSS最多抓取数
 weeklyKeyWord="" # 周刊过滤关键字
 
 rssBase={
@@ -87,7 +87,13 @@ for rss in rssBase:
             break
         published=int(time.mktime(time.strptime(entry['published'], rssBase[rss]["timeFormat"])))
 
+        if entry['published'][-5]=="+":
+            published=published-(int(entry['published'][-5:])*36)
+
         if rssBase[rss]["type"]=="weekly" and (weeklyKeyWord not in entry['title']):
+            continue
+
+        if published>info["published"]:
             continue
 
         if published>displayTime:
