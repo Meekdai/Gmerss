@@ -83,7 +83,7 @@ for rss in rssBase:
     rssDate = feedparser.parse(rssBase[rss]["url"])
     i=0
     for entry in rssDate['entries']:
-        if i>displayMax:
+        if i>=displayMax:
             break
         published=int(time.mktime(time.strptime(entry['published'], rssBase[rss]["timeFormat"])))
 
