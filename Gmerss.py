@@ -85,27 +85,32 @@ for rss in rssBase:
     for entry in rssDate['entries']:
         if i>=displayMax:
             break
-        published=int(time.mktime(time.strptime(entry['published'], rssBase[rss]["timeFormat"])))
+        if 'published' in entry:
+            published=int(time.mktime(time.strptime(entry['published'], rssBase[rss]["timeFormat"])))
 
-        if entry['published'][-5]=="+":
-            published=published-(int(entry['published'][-5:])*36)
+            if entry['published'][-5]=="+":
+                published=published-(int(entry['published'][-5:])*36)
 
-        if rssBase[rss]["type"]=="weekly" and (weeklyKeyWord not in entry['title']):
-            continue
+            if rssBase[rss]["type"]=="weekly" and (weeklyKeyWord not in entry['title']):
+                continue
 
-        if published>info["published"]:
-            continue
+            if published>info["published"]:
+                continue
 
-        if published>displayTime:
-            onePost=json.loads('{}')
-            onePost["name"]=rss
-            onePost["title"]=entry['title']
-            onePost["link"]=entry['link']
-            onePost["published"]=published
-            rssAll.append(onePost)
-            print("====== Reptile %s ======"%(onePost["title"]))
-            i=i+1
+            if published>displayTime:
+                onePost=json.loads('{}')
+                onePost["name"]=rss
+                onePost["title"]=entry['title']
+                onePost["link"]=entry['link']
+                onePost["published"]=published
+                rssAll.append(onePost)
+                print("====== Reptile %s ======"%(onePost["title"]))
+                i=i+1
+        else:
+            published = None
+            print("Warning: 'published' key not found in entry")
 
+            
 print("====== Start sorted %d list ======"%(len(rssAll)-1))
 rssAll=sorted(rssAll,key=lambda e:e.__getitem__("published"),reverse=True)
 
