@@ -40,12 +40,6 @@ rssBase={
         "timeFormat":"%a, %d %b %Y %H:%M:%S GMT",
         "nameColor":"#bc4c00"
     },
-    "1Link":{
-        "url":"https://1link.fun/index.xml",
-        "type":"weekly",
-        "timeFormat":"%a, %d %b %Y %H:%M:%S +0000",
-        "nameColor":"#7479dc"
-    },
     "阮一峰":{
         "url":"http://www.ruanyifeng.com/blog/atom.xml",
         "type":"weekly",
