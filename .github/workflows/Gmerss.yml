@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Reptile
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     permissions: write-all
     steps:
       - name: Checkout
@@ -49,7 +49,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     needs: build
     permissions:
       contents: write
