@@ -1,6 +1,6 @@
 [
   {
-    "published": 1782465971,
+    "published": 1782527439,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -67,11 +67,5 @@
     "title": "服务器系统更新至Fedora Server 44",
     "link": "https://kn007.net/topics/server-system-updated-to-fedora-server-44/",
     "published": 1781943896
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#155：Python 3.14 垃圾回收风波",
-    "link": "https://pythoncat.top/posts/2026-06-20-weekly/",
-    "published": 1781913600
   }
 ]
