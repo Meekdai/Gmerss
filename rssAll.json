@@ -1,6 +1,6 @@
 [
   {
-    "published": 1782527439,
+    "published": 1782614609,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#156：Pydantic 接管 httpx 始末",
+    "link": "https://pythoncat.top/posts/2026-06-27-weekly/",
+    "published": 1782518400
+  },
+  {
     "name": "kn007",
     "title": "Nginx SSL配置杂谈",
     "link": "https://kn007.net/topics/nginx-ssl-configuration-talk/",
@@ -61,11 +67,5 @@
     "title": "学习周刊-总第269期-2026年第26周",
     "link": "https://wiki.eryajf.net/pages/0e5d11/",
     "published": 1782395737
-  },
-  {
-    "name": "kn007",
-    "title": "服务器系统更新至Fedora Server 44",
-    "link": "https://kn007.net/topics/server-system-updated-to-fedora-server-44/",
-    "published": 1781943896
   }
 ]
