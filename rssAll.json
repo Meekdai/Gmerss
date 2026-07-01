@@ -1,6 +1,6 @@
 [
   {
-    "published": 1782787308,
+    "published": 1782873870,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "阮一峰",
+    "title": "Dario Amodei：AI 开源是伪命题",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
+    "published": 1782788648
   },
   {
     "name": "豌豆花下猫",
