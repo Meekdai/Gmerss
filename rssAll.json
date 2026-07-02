@@ -1,6 +1,6 @@
 [
   {
-    "published": 1782873870,
+    "published": 1782959636,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "kn007",
+    "title": "Fedora快速配置Postfix并挂载OpenDKIM、OpenDMARC",
+    "link": "https://kn007.net/topics/fedora-quickly-configures-postfix-and-opendkim-and-opendmarc/",
+    "published": 1782945188
   },
   {
     "name": "阮一峰",
