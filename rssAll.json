@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783044565,
+    "published": 1783130860,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-402.html",
+    "published": 1783035229
+  },
+  {
     "name": "kn007",
     "title": "Fedora下关于OpenDKIM、OpenDMARC的配置实例",
     "link": "https://kn007.net/topics/configuration-of-opendkim-and-opendmarc-under-fedora/",
@@ -67,11 +73,5 @@
     "title": "Dario Amodei：AI 开源是伪命题",
     "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
     "published": 1782788648
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#156：Pydantic 接管 httpx 始末",
-    "link": "https://pythoncat.top/posts/2026-06-27-weekly/",
-    "published": 1782518400
   }
 ]
