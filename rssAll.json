@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783304860,
+    "published": 1783391003,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,10 +45,22 @@
     }
   },
   {
+    "name": "kn007",
+    "title": "老歌单曲推荐：汤宝如《缘分的天空》",
+    "link": "https://kn007.net/topics/old-song-recommendation-karen-tong-the-sky-of-fate/",
+    "published": 1783342220
+  },
+  {
     "name": "豌豆花下猫",
     "title": "Python 潮流周刊#157：CPython JIT 的开发计划",
     "link": "https://pythoncat.top/posts/2026-07-04-weekly/",
     "published": 1783123200
+  },
+  {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-402.html",
+    "published": 1783035229
   },
   {
     "name": "kn007",
@@ -63,9 +75,9 @@
     "published": 1783000118
   },
   {
-    "name": "kn007",
-    "title": "Fedora快速配置Postfix并挂载OpenDKIM、OpenDMARC",
-    "link": "https://kn007.net/topics/fedora-quickly-configures-postfix-and-opendkim-and-opendmarc/",
-    "published": 1782945188
+    "name": "阮一峰",
+    "title": "Dario Amodei：AI 开源是伪命题",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
+    "published": 1782788648
   }
 ]
