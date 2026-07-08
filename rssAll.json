@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783391003,
+    "published": 1783475816,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -73,11 +73,5 @@
     "title": "学习周刊-总第270期-2026年第27周",
     "link": "https://wiki.eryajf.net/pages/0ef849/",
     "published": 1783000118
-  },
-  {
-    "name": "阮一峰",
-    "title": "Dario Amodei：AI 开源是伪命题",
-    "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
-    "published": 1782788648
   }
 ]
