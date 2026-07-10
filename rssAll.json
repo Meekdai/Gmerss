@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783562990,
+    "published": 1783649347,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,18 @@
     }
   },
   {
+    "name": "二丫讲梵",
+    "title": "学习周刊-总第271期-2026年第28周",
+    "link": "https://wiki.eryajf.net/pages/87cbc1/",
+    "published": 1783645036
+  },
+  {
+    "name": "kn007",
+    "title": "Nginx尝试返回webp版本的图片给浏览器",
+    "link": "https://kn007.net/topics/nginx-tries-to-return-the-webp-version-of-image-to-browser/",
+    "published": 1783604870
+  },
+  {
     "name": "kn007",
     "title": "老歌单曲推荐：汤宝如《缘分的天空》",
     "link": "https://kn007.net/topics/old-song-recommendation-karen-tong-the-sky-of-fate/",
@@ -55,23 +67,5 @@
     "title": "Python 潮流周刊#157：CPython JIT 的开发计划",
     "link": "https://pythoncat.top/posts/2026-07-04-weekly/",
     "published": 1783123200
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）",
-    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-402.html",
-    "published": 1783035229
-  },
-  {
-    "name": "kn007",
-    "title": "Fedora下关于OpenDKIM、OpenDMARC的配置实例",
-    "link": "https://kn007.net/topics/configuration-of-opendkim-and-opendmarc-under-fedora/",
-    "published": 1783034619
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第270期-2026年第27周",
-    "link": "https://wiki.eryajf.net/pages/0ef849/",
-    "published": 1783000118
   }
 ]
