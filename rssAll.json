@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783649347,
+    "published": 1783734917,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -51,6 +51,12 @@
     "published": 1783645036
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
+    "published": 1783641931
+  },
+  {
     "name": "kn007",
     "title": "Nginx尝试返回webp版本的图片给浏览器",
     "link": "https://kn007.net/topics/nginx-tries-to-return-the-webp-version-of-image-to-browser/",
@@ -61,11 +67,5 @@
     "title": "老歌单曲推荐：汤宝如《缘分的天空》",
     "link": "https://kn007.net/topics/old-song-recommendation-karen-tong-the-sky-of-fate/",
     "published": 1783342220
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#157：CPython JIT 的开发计划",
-    "link": "https://pythoncat.top/posts/2026-07-04-weekly/",
-    "published": 1783123200
   }
 ]
