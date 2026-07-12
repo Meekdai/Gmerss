@@ -1,6 +1,6 @@
 [
   {
-    "published": 1783734917,
+    "published": 1783821513,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#158：frozendict 内置类型",
+    "link": "https://pythoncat.top/posts/2026-07-11-weekly/",
+    "published": 1783728000
   },
   {
     "name": "二丫讲梵",
