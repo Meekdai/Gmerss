@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784079814,
+    "published": 1784166790,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "kn007",
+    "title": "Nginx使用Zstd压缩传输",
+    "link": "https://kn007.net/topics/nginx-uses-zstd-compression-to-transmit/",
+    "published": 1784121744
   },
   {
     "name": "豌豆花下猫",
