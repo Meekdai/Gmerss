@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784166790,
+    "published": 1784253448,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "二丫讲梵",
+    "title": "学习周刊-总第272期-2026年第29周",
+    "link": "https://wiki.eryajf.net/pages/b07ecd/",
+    "published": 1784215090
+  },
+  {
     "name": "kn007",
     "title": "Nginx使用Zstd压缩传输",
     "link": "https://kn007.net/topics/nginx-uses-zstd-compression-to-transmit/",
@@ -55,23 +61,5 @@
     "title": "Python 潮流周刊#158：frozendict 内置类型",
     "link": "https://pythoncat.top/posts/2026-07-11-weekly/",
     "published": 1783728000
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第271期-2026年第28周",
-    "link": "https://wiki.eryajf.net/pages/87cbc1/",
-    "published": 1783645036
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
-    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
-    "published": 1783641931
-  },
-  {
-    "name": "kn007",
-    "title": "Nginx尝试返回webp版本的图片给浏览器",
-    "link": "https://kn007.net/topics/nginx-tries-to-return-the-webp-version-of-image-to-browser/",
-    "published": 1783604870
   }
 ]
