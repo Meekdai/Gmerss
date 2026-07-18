@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784253448,
+    "published": 1784339216,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 404 期）：你需要知道的 AI 内存知识",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-404.html",
+    "published": 1784245879
+  },
+  {
     "name": "二丫讲梵",
     "title": "学习周刊-总第272期-2026年第29周",
     "link": "https://wiki.eryajf.net/pages/b07ecd/",
@@ -55,11 +61,5 @@
     "title": "Nginx使用Zstd压缩传输",
     "link": "https://kn007.net/topics/nginx-uses-zstd-compression-to-transmit/",
     "published": 1784121744
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#158：frozendict 内置类型",
-    "link": "https://pythoncat.top/posts/2026-07-11-weekly/",
-    "published": 1783728000
   }
 ]
