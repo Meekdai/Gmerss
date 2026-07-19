@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784339216,
+    "published": 1784426171,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#159：Python 3.15 预览",
+    "link": "https://pythoncat.top/posts/2026-07-18-weekly/",
+    "published": 1784332800
   },
   {
     "name": "阮一峰",
