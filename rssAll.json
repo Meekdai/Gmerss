@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784517804,
+    "published": 1784598936,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "kn007",
+    "title": "聊聊博客以及我个人近况",
+    "link": "https://kn007.net/topics/2026-lets-talk-about-the-blog-and-my-current-situation/",
+    "published": 1784555173
   },
   {
     "name": "豌豆花下猫",
