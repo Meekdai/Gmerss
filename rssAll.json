@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784685264,
+    "published": 1784772125,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -67,11 +67,5 @@
     "title": "学习周刊-总第272期-2026年第29周",
     "link": "https://wiki.eryajf.net/pages/b07ecd/",
     "published": 1784215090
-  },
-  {
-    "name": "kn007",
-    "title": "Nginx使用Zstd压缩传输",
-    "link": "https://kn007.net/topics/nginx-uses-zstd-compression-to-transmit/",
-    "published": 1784121744
   }
 ]
