@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784772125,
+    "published": 1784858269,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,18 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
+    "published": 1784851936
+  },
+  {
+    "name": "二丫讲梵",
+    "title": "学习周刊-总第273期-2026年第30周",
+    "link": "https://wiki.eryajf.net/pages/8085fe/",
+    "published": 1784814669
+  },
+  {
     "name": "kn007",
     "title": "聊聊博客以及我个人近况",
     "link": "https://kn007.net/topics/2026-lets-talk-about-the-blog-and-my-current-situation/",
@@ -55,17 +67,5 @@
     "title": "Python 潮流周刊#159：Python 3.15 预览",
     "link": "https://pythoncat.top/posts/2026-07-18-weekly/",
     "published": 1784332800
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 404 期）：你需要知道的 AI 内存知识",
-    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-404.html",
-    "published": 1784245879
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第272期-2026年第29周",
-    "link": "https://wiki.eryajf.net/pages/b07ecd/",
-    "published": 1784215090
   }
 ]
