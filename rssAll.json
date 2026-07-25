@@ -1,6 +1,6 @@
 [
   {
-    "published": 1784858269,
+    "published": 1784944604,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -61,11 +61,5 @@
     "title": "聊聊博客以及我个人近况",
     "link": "https://kn007.net/topics/2026-lets-talk-about-the-blog-and-my-current-situation/",
     "published": 1784555173
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#159：Python 3.15 预览",
-    "link": "https://pythoncat.top/posts/2026-07-18-weekly/",
-    "published": 1784332800
   }
 ]
