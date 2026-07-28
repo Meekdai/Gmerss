@@ -1,6 +1,6 @@
 [
   {
-    "published": 1785118130,
+    "published": 1785203377,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "kn007",
+    "title": "改进Nginx在支持时返回webp的逻辑",
+    "link": "https://kn007.net/topics/improve-the-logic-of-nginx-returning-webp-when-supported/",
+    "published": 1785145724
+  },
+  {
     "name": "豌豆花下猫",
     "title": "Python 潮流周刊#160：AI 智能体与 LLM 推理",
     "link": "https://pythoncat.top/posts/2026-07-25-weekly/",
@@ -61,11 +67,5 @@
     "title": "学习周刊-总第273期-2026年第30周",
     "link": "https://wiki.eryajf.net/pages/8085fe/",
     "published": 1784814669
-  },
-  {
-    "name": "kn007",
-    "title": "聊聊博客以及我个人近况",
-    "link": "https://kn007.net/topics/2026-lets-talk-about-the-blog-and-my-current-situation/",
-    "published": 1784555173
   }
 ]
