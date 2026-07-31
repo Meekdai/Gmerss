@@ -1,6 +1,6 @@
 [
   {
-    "published": 1785375894,
+    "published": 1785463349,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,18 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
+    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
+    "published": 1785456535
+  },
+  {
+    "name": "二丫讲梵",
+    "title": "学习周刊-总第274期-2026年第31周",
+    "link": "https://wiki.eryajf.net/pages/7216a4/",
+    "published": 1785423025
+  },
+  {
     "name": "kn007",
     "title": "改进Nginx在支持时返回webp的逻辑",
     "link": "https://kn007.net/topics/improve-the-logic-of-nginx-returning-webp-when-supported/",
@@ -55,17 +67,5 @@
     "title": "Python 潮流周刊#160：AI 智能体与 LLM 推理",
     "link": "https://pythoncat.top/posts/2026-07-25-weekly/",
     "published": 1784937600
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
-    "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
-    "published": 1784851936
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第273期-2026年第30周",
-    "link": "https://wiki.eryajf.net/pages/8085fe/",
-    "published": 1784814669
   }
 ]
