@@ -1,6 +1,6 @@
 [
   {
-    "published": 1785463349,
+    "published": 1785549813,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -61,11 +61,5 @@
     "title": "改进Nginx在支持时返回webp的逻辑",
     "link": "https://kn007.net/topics/improve-the-logic-of-nginx-returning-webp-when-supported/",
     "published": 1785145724
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#160：AI 智能体与 LLM 推理",
-    "link": "https://pythoncat.top/posts/2026-07-25-weekly/",
-    "published": 1784937600
   }
 ]
