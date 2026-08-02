@@ -1,6 +1,6 @@
 [
   {
-    "published": 1785549813,
+    "published": 1785636029,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#161：Claude Code 工作原理",
+    "link": "https://pythoncat.top/posts/2026-08-01-weekly/",
+    "published": 1785542400
   },
   {
     "name": "阮一峰",
