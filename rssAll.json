@@ -1,6 +1,6 @@
 [
   {
-    "published": 1785722565,
+    "published": 1785808105,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -61,11 +61,5 @@
     "title": "学习周刊-总第274期-2026年第31周",
     "link": "https://wiki.eryajf.net/pages/7216a4/",
     "published": 1785423025
-  },
-  {
-    "name": "kn007",
-    "title": "改进Nginx在支持时返回webp的逻辑",
-    "link": "https://kn007.net/topics/improve-the-logic-of-nginx-returning-webp-when-supported/",
-    "published": 1785145724
   }
 ]
