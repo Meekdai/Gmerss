@@ -1,6 +1,6 @@
 [
   {
-    "published": 1786068798,
+    "published": 1786150873,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -55,11 +55,5 @@
     "title": "学习周刊-总第275期-2026年第32周",
     "link": "https://wiki.eryajf.net/pages/961c90/",
     "published": 1786026438
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#161：Claude Code 工作原理",
-    "link": "https://pythoncat.top/posts/2026-08-01-weekly/",
-    "published": 1785542400
   }
 ]
