@@ -1,6 +1,6 @@
 [
   {
-    "published": 1786150873,
+    "published": 1786237519,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#162：新的 f 前缀语法提案",
+    "link": "https://pythoncat.top/posts/2026-08-08-weekly/",
+    "published": 1786147200
   },
   {
     "name": "阮一峰",
