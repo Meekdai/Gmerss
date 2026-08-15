@@ -1,6 +1,6 @@
 [
   {
-    "published": 1786670071,
+    "published": 1786754774,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -55,11 +55,5 @@
     "title": "学习周刊-总第276期-2026年第33周",
     "link": "https://wiki.eryajf.net/pages/630ab4/",
     "published": 1786636728
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#162：新的 f 前缀语法提案",
-    "link": "https://pythoncat.top/posts/2026-08-08-weekly/",
-    "published": 1786147200
   }
 ]
