@@ -1,6 +1,6 @@
 [
   {
-    "published": 1786754774,
+    "published": 1786841365,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#163：在浏览器上运行 Numba",
+    "link": "https://pythoncat.top/posts/2026-08-15-weekly/",
+    "published": 1786752000
   },
   {
     "name": "阮一峰",
