@@ -1,6 +1,6 @@
 [
   {
-    "published": 1787359571,
+    "published": 1787446269,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#164：deepseek-harness 万物皆插件",
+    "link": "https://pythoncat.top/posts/2026-08-22-weekly/",
+    "published": 1787356800
   },
   {
     "name": "阮一峰",
