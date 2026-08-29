@@ -1,6 +1,6 @@
 [
   {
-    "published": 1787904915,
+    "published": 1787979544,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -55,11 +55,5 @@
     "title": "学习周刊-总第278期-2026年第35周",
     "link": "https://wiki.eryajf.net/pages/4327cf/",
     "published": 1787844342
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#164：deepseek-harness 万物皆插件",
-    "link": "https://pythoncat.top/posts/2026-08-22-weekly/",
-    "published": 1787356800
   }
 ]
