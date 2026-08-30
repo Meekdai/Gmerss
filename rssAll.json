@@ -1,6 +1,6 @@
 [
   {
-    "published": 1787979544,
+    "published": 1788058023,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#165：Mojo 正式开源",
+    "link": "https://pythoncat.top/posts/2026-08-29-weekly/",
+    "published": 1787961600
   },
   {
     "name": "阮一峰",
