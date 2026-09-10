@@ -1,6 +1,6 @@
 [
   {
-    "published": 1788920612,
+    "published": 1789006974,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -55,11 +55,5 @@
     "title": "科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影",
     "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html",
     "published": 1788479945
-  },
-  {
-    "name": "独立开发变现",
-    "title": "独立开发变现周刊（第155期） : 不美化失败，把‘持续交付’当作小产品核心成果",
-    "link": "https://www.ezindie.com/weekly/issue-155",
-    "published": 1788393600
   }
 ]
