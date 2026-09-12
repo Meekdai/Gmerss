@@ -1,6 +1,6 @@
 [
   {
-    "published": 1789093091,
+    "published": 1789179914,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -67,11 +67,5 @@
     "title": "独立开发变现周刊（第156期） : 单渠道突破法实现400万美元年收",
     "link": "https://www.ezindie.com/weekly/issue-156",
     "published": 1788998400
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#166：拆解 Kimi K3 的登顶之路",
-    "link": "https://pythoncat.top/posts/2026-09-05-weekly/",
-    "published": 1788566400
   }
 ]
