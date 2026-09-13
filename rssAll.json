@@ -1,6 +1,6 @@
 [
   {
-    "published": 1789179914,
+    "published": 1789266213,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#167：用 1024 字节写个 Python 解释器",
+    "link": "https://pythoncat.top/posts/2026-09-12-weekly/",
+    "published": 1789171200
   },
   {
     "name": "阮一峰",
