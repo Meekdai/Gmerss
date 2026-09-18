@@ -1,6 +1,6 @@
 [
   {
-    "published": 1789612973,
+    "published": 1789698597,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,27 +45,21 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
+    "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
+    "published": 1789689782
+  },
+  {
+    "name": "独立开发变现",
+    "title": "独立开发变现周刊（第157期） : 开源驱动25k美元月收入",
+    "link": "https://www.ezindie.com/weekly/issue-157",
+    "published": 1789603200
+  },
+  {
     "name": "豌豆花下猫",
     "title": "Python 潮流周刊#167：用 1024 字节写个 Python 解释器",
     "link": "https://pythoncat.top/posts/2026-09-12-weekly/",
     "published": 1789171200
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
-    "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html",
-    "published": 1789085510
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第280期-2026年第37周",
-    "link": "https://wiki.eryajf.net/pages/eb7d06/",
-    "published": 1789050248
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第279期-2026年第36周",
-    "link": "https://wiki.eryajf.net/pages/702d84/",
-    "published": 1789050242
   }
 ]
