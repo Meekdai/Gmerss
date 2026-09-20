@@ -1,6 +1,6 @@
 [
   {
-    "published": 1789784957,
+    "published": 1789872022,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,18 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "kn007",
+    "title": "《幻世录》 100%必遇神秘男子",
+    "link": "https://kn007.net/topics/the-legend-of-fancy-realm-guaranteed-encounter-with-mysterious-man/",
+    "published": 1789801034
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#168：AI 智能体少写一半代码、Numba 提速 750 倍、PyPI 故障查了两周",
+    "link": "https://pythoncat.top/posts/2026-09-19-weekly/",
+    "published": 1789776000
   },
   {
     "name": "阮一峰",
