@@ -1,6 +1,6 @@
 [
   {
-    "published": 1790216941,
+    "published": 1790304361,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "独立开发变现",
+    "title": "独立开发变现周刊（第158期） : Taras达1000美元MRR：SEO+AI+个人品牌三线驱动",
+    "link": "https://www.ezindie.com/weekly/issue-158",
+    "published": 1790208000
+  },
+  {
     "name": "kn007",
     "title": "《幻世录》 100%必遇神秘男子",
     "link": "https://kn007.net/topics/the-legend-of-fancy-realm-guaranteed-encounter-with-mysterious-man/",
@@ -55,17 +61,5 @@
     "title": "Python 潮流周刊#168：AI 智能体少写一半代码、Numba 提速 750 倍、PyPI 故障查了两周",
     "link": "https://pythoncat.top/posts/2026-09-19-weekly/",
     "published": 1789776000
-  },
-  {
-    "name": "阮一峰",
-    "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
-    "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
-    "published": 1789689782
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第281期-2026年第38周",
-    "link": "https://wiki.eryajf.net/pages/f4b3b4/",
-    "published": 1789656559
   }
 ]
