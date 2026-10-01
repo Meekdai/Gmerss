@@ -1,6 +1,6 @@
 [
   {
-    "published": 1790738203,
+    "published": 1790824991,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,15 +45,15 @@
     }
   },
   {
+    "name": "独立开发变现",
+    "title": "独立开发变现周刊（第159期） : 300万美元年收入面试神器",
+    "link": "https://www.ezindie.com/weekly/issue-159",
+    "published": 1790726400
+  },
+  {
     "name": "豌豆花下猫",
     "title": "Python 潮流周刊#169：AI 用 11 天证完费马大定理、Python 拟加 export 关键字、一个 Key 调 3000 个工具",
     "link": "https://pythoncat.top/posts/2026-09-26-weekly/",
     "published": 1790380800
-  },
-  {
-    "name": "独立开发变现",
-    "title": "独立开发变现周刊（第158期） : Taras达1000美元MRR：SEO+AI+个人品牌三线驱动",
-    "link": "https://www.ezindie.com/weekly/issue-158",
-    "published": 1790208000
   }
 ]
