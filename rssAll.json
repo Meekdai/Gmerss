@@ -1,6 +1,6 @@
 [
   {
-    "published": 1790824991,
+    "published": 1790911437,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "国庆快乐：抽奖、优惠、调价，关于周刊的三件事",
+    "link": "https://pythoncat.top/posts/2026-10-01-national-day/",
+    "published": 1790812800
   },
   {
     "name": "独立开发变现",
