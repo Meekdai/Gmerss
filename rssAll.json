@@ -1,6 +1,6 @@
 [
   {
-    "published": 1791431311,
+    "published": 1791518031,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,9 +45,21 @@
     }
   },
   {
+    "name": "阮一峰",
+    "title": "科技爱好者周刊（第 414 期）：Jev 决策模型有什么用",
+    "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html",
+    "published": 1791471886
+  },
+  {
     "name": "二丫讲梵",
     "title": "学习周刊-总第284期-2026年第41周",
     "link": "https://wiki.eryajf.net/pages/fdfe24/",
     "published": 1791430676
+  },
+  {
+    "name": "独立开发变现",
+    "title": "独立开发变现周刊（第160期） : ChatGPT插件单周新增50万美元",
+    "link": "https://www.ezindie.com/weekly/issue-160",
+    "published": 1791417600
   }
 ]
