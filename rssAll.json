@@ -1,6 +1,6 @@
 [
   {
-    "published": 1791603490,
+    "published": 1791688269,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#170：3.15 惰性导入落地、3.16 拟纳入增量 GC 与 ?? 运算符",
+    "link": "https://pythoncat.top/posts/2026-10-10-weekly/",
+    "published": 1791590400
   },
   {
     "name": "阮一峰",
