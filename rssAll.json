@@ -1,6 +1,6 @@
 [
   {
-    "published": 1792117809,
+    "published": 1792203778,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -57,21 +57,9 @@
     "published": 1792078112
   },
   {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第285期-2026年第42周",
-    "link": "https://wiki.eryajf.net/pages/6be37e/",
-    "published": 1792035536
-  },
-  {
     "name": "独立开发变现",
     "title": "独立开发变现周刊（第161期） : X原创内容奖励首周入账92.18美元",
     "link": "https://www.ezindie.com/weekly/issue-161",
     "published": 1792022400
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#170：3.15 惰性导入落地、3.16 拟纳入增量 GC 与 ?? 运算符",
-    "link": "https://pythoncat.top/posts/2026-10-10-weekly/",
-    "published": 1791590400
   }
 ]
