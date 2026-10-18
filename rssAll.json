@@ -1,6 +1,6 @@
 [
   {
-    "published": 1792203778,
+    "published": 1792290178,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,6 +45,12 @@
     }
   },
   {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#171：Python 3.15 正式发布、lazy 惰性导入与 frozendict 转正为内置",
+    "link": "https://pythoncat.top/posts/2026-10-17-weekly/",
+    "published": 1792195200
+  },
+  {
     "name": "阮一峰",
     "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
     "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
@@ -55,6 +61,12 @@
     "title": "博客十五年记",
     "link": "https://yefengs.com/3244.html",
     "published": 1792078112
+  },
+  {
+    "name": "二丫讲梵",
+    "title": "学习周刊-总第285期-2026年第42周",
+    "link": "https://wiki.eryajf.net/pages/6be37e/",
+    "published": 1792035536
   },
   {
     "name": "独立开发变现",
