@@ -1,6 +1,6 @@
 [
   {
-    "published": 1792809794,
+    "published": 1792895591,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#172：3.15 的 JIT 终于见效、自由线程 Python 进入下一阶段",
+    "link": "https://pythoncat.top/posts/2026-10-24-weekly/",
+    "published": 1792800000
   },
   {
     "name": "阮一峰",
