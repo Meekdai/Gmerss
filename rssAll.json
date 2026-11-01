@@ -1,6 +1,6 @@
 [
   {
-    "published": 1793417404,
+    "published": 1793504127,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#173：Guido 保荐的 PEP 823 拟给 3.16 加 ?. 与 ?[]",
+    "link": "https://pythoncat.top/posts/2026-10-31-weekly/",
+    "published": 1793404800
   },
   {
     "name": "阮一峰",
