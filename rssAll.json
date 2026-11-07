@@ -1,6 +1,6 @@
 [
   {
-    "published": 1793943591,
+    "published": 1794023739,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -61,11 +61,5 @@
     "title": "独立开发变现周刊（第164期） : Directify达5万美元年收入的独立SaaS",
     "link": "https://www.ezindie.com/weekly/issue-164",
     "published": 1793836800
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#173：Guido 保荐的 PEP 823 拟给 3.16 加 ?. 与 ?[]",
-    "link": "https://pythoncat.top/posts/2026-10-31-weekly/",
-    "published": 1793404800
   }
 ]
