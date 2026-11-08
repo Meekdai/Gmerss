@@ -1,6 +1,6 @@
 [
   {
-    "published": 1794023739,
+    "published": 1794109237,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -43,6 +43,12 @@
         "nameColor": "#df7150"
       }
     }
+  },
+  {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#174：CPython 实验性 JIT 将被移除，PyScript 进入维护模式",
+    "link": "https://pythoncat.top/posts/2026-11-07-weekly/",
+    "published": 1794009600
   },
   {
     "name": "阮一峰",
