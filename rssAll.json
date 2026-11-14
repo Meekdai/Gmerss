@@ -1,6 +1,6 @@
 [
   {
-    "published": 1794543812,
+    "published": 1794629952,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -67,11 +67,5 @@
     "title": "博客服务器迁移至V.PS",
     "link": "https://kn007.net/topics/2026-migrate-blog-server-to-v-ps/",
     "published": 1794148203
-  },
-  {
-    "name": "豌豆花下猫",
-    "title": "Python 潮流周刊#174：CPython 实验性 JIT 将被移除，PyScript 进入维护模式",
-    "link": "https://pythoncat.top/posts/2026-11-07-weekly/",
-    "published": 1794009600
   }
 ]
