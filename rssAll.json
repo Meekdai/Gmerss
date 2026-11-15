@@ -1,6 +1,6 @@
 [
   {
-    "published": 1794629952,
+    "published": 1794715397,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -45,16 +45,16 @@
     }
   },
   {
+    "name": "豌豆花下猫",
+    "title": "Python 潮流周刊#175：AI 为 CPython 写出 61 万行 Lean 证明",
+    "link": "https://pythoncat.top/posts/2026-11-14-weekly/",
+    "published": 1794614400
+  },
+  {
     "name": "阮一峰",
     "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
     "link": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
     "published": 1794528509
-  },
-  {
-    "name": "二丫讲梵",
-    "title": "学习周刊-总第289期-2026年第46周",
-    "link": "https://wiki.eryajf.net/pages/513f3b/",
-    "published": 1794497864
   },
   {
     "name": "独立开发变现",
