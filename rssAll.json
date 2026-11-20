@@ -1,6 +1,6 @@
 [
   {
-    "published": 1795065499,
+    "published": 1795151083,
     "rssBase": {
       "独立开发变现": {
         "url": "https://www.ezindie.com/feed/rss.xml",
@@ -46,14 +46,20 @@
   },
   {
     "name": "阮一峰",
-    "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
-    "link": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
-    "published": 1794528509
+    "title": "科技爱好者周刊（第 420 期）：最分心的一年",
+    "link": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
+    "published": 1795133250
   },
   {
     "name": "二丫讲梵",
-    "title": "学习周刊-总第289期-2026年第46周",
-    "link": "https://wiki.eryajf.net/pages/513f3b/",
-    "published": 1794497864
+    "title": "学习周刊-总第290期-2026年第47周",
+    "link": "https://wiki.eryajf.net/pages/163de5/",
+    "published": 1795099039
+  },
+  {
+    "name": "独立开发变现",
+    "title": "独立开发变现周刊（第166期） : 开源AI创业系统，11周创收110万美元",
+    "link": "https://www.ezindie.com/weekly/issue-166",
+    "published": 1795046400
   }
 ]
